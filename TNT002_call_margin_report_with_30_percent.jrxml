@@ -321,7 +321,7 @@
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3418fbf7-9a1e-4418-a254-ed228411b1a6"/>
 				</reportElement>
 				<textElement>
-					<font size="8" isBold="false"/>
+					<font fontName="THSarabun" size="8" isBold="false"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{a_o_name}]]></textFieldExpression>
 			</textField>
