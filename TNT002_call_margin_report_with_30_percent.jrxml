@@ -60,7 +60,7 @@
 		<band splitType="Stretch"/>
 	</background>
 	<title>
-		<band height="62" splitType="Stretch">
+		<band height="56" splitType="Stretch">
 			<image>
 				<reportElement x="0" y="0" width="50" height="50" uuid="e88067f7-6531-4430-8e42-d5d468f03dc6"/>
 				<imageExpression><![CDATA["/home/nuttakarn/Desktop/tnity/TNITY.png"]]></imageExpression>
@@ -75,7 +75,7 @@
 		</band>
 	</title>
 	<pageHeader>
-		<band height="102" splitType="Stretch">
+		<band height="100" splitType="Stretch">
 			<staticText>
 				<reportElement x="0" y="0" width="181" height="30" uuid="95d2b939-4d0f-46a8-a9ee-b368273a3e73"/>
 				<textElement verticalAlignment="Middle">
@@ -91,7 +91,7 @@
 				<text><![CDATA[Report Date  :  27/06/2018  09:15:31]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="0" y="60" width="140" height="40" uuid="4684244c-d4e1-4023-bcf8-f416f193599a"/>
+				<reportElement x="0" y="60" width="140" height="30" uuid="4684244c-d4e1-4023-bcf8-f416f193599a"/>
 				<textElement verticalAlignment="Middle">
 					<font size="8" isBold="true"/>
 				</textElement>
