@@ -98,28 +98,28 @@
 				<text><![CDATA[Trade Date  : 27/06/2018]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="676" y="30" width="38" height="30" uuid="3fa6fcf8-d94c-4d91-8979-9c16c3fc06ac"/>
+				<reportElement x="700" y="30" width="38" height="30" uuid="3fa6fcf8-d94c-4d91-8979-9c16c3fc06ac"/>
 				<textElement verticalAlignment="Middle" markup="html">
 					<font size="8" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Page  :]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="714" y="30" width="6" height="30" uuid="83f47f3f-b4b5-4cde-abf9-e70427c87966"/>
+				<reportElement x="738" y="30" width="6" height="30" uuid="83f47f3f-b4b5-4cde-abf9-e70427c87966"/>
 				<textElement verticalAlignment="Middle">
 					<font size="8" isBold="true"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
 			</textField>
 			<textField evaluationTime="Report">
-				<reportElement x="726" y="30" width="6" height="30" uuid="132ae00b-94ef-41bc-ae68-507acaaa8982"/>
+				<reportElement x="750" y="30" width="6" height="30" uuid="132ae00b-94ef-41bc-ae68-507acaaa8982"/>
 				<textElement verticalAlignment="Middle">
 					<font size="8" isBold="true"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="720" y="30" width="6" height="30" uuid="9f822a7f-5d36-4c2e-9366-4836c7b6a41b"/>
+				<reportElement x="744" y="30" width="6" height="30" uuid="9f822a7f-5d36-4c2e-9366-4836c7b6a41b"/>
 				<textElement verticalAlignment="Middle">
 					<font size="8" isBold="true"/>
 				</textElement>
