@@ -416,20 +416,20 @@
 				</textElement>
 				<text><![CDATA[ToTal  :]]></text>
 			</staticText>
-			<staticText>
-				<reportElement x="50" y="0" width="50" height="20" uuid="6d881fd7-0f8a-4cd5-be8c-b5bc06444e21"/>
-				<textElement verticalAlignment="Middle">
-					<font size="8" isBold="true"/>
-				</textElement>
-				<text><![CDATA[Accounts]]></text>
-			</staticText>
 			<textField pattern="#,##0.###;#,-##0.###">
-				<reportElement x="40" y="0" width="10" height="20" uuid="cc8bdf2d-5e9c-4357-8ad7-69b565f653ae"/>
+				<reportElement x="40" y="0" width="20" height="20" uuid="cc8bdf2d-5e9c-4357-8ad7-69b565f653ae"/>
 				<textElement verticalAlignment="Middle">
 					<font size="8" isBold="true"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$V{account}]]></textFieldExpression>
 			</textField>
+			<staticText>
+				<reportElement x="60" y="0" width="50" height="20" uuid="6d881fd7-0f8a-4cd5-be8c-b5bc06444e21"/>
+				<textElement verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Accounts]]></text>
+			</staticText>
 		</band>
 	</pageFooter>
 	<summary>
