@@ -57,7 +57,19 @@
 		<band splitType="Stretch"/>
 	</background>
 	<title>
-		<band height="79" splitType="Stretch"/>
+		<band height="85" splitType="Stretch">
+			<image>
+				<reportElement x="0" y="10" width="50" height="50" uuid="e88067f7-6531-4430-8e42-d5d468f03dc6"/>
+				<imageExpression><![CDATA["/home/nuttakarn/Desktop/tnity/TNITY.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="50" y="15" width="160" height="40" forecolor="#383A47" uuid="75990163-3b86-402d-8f3a-87f9f9af60b9"/>
+				<textElement verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[TRINITY SECURITIES GROUP]]></text>
+			</staticText>
+		</band>
 	</title>
 	<pageHeader>
 		<band height="55" splitType="Stretch"/>
